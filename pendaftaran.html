@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+</head>
+<body>
 
+    <h1>FORMULIR PENDAFTARAN</h1>
+    <hr>
+
+    <form>
+        <label>Nama Lengkap:</label><br>
+        <input type="text" name="nama" placeholder="Masukkan nama lengkap">
+        <br><br>
+
+        <label>NIM:</label><br>
+        <input type="text" name="nim" placeholder="Masukkan NIM">
+        <br><br>
+
+        <label>Tempat, Tanggal Lahir:</label><br>
+        <input type="text" name="ttl" placeholder="Tempat, tanggal lahir">
+        <br><br>
+
+        <label>Jenis Kelamin:</label><br>
+        <input type="radio" name="jk" value="Laki-laki"> Laki-laki
+        <input type="radio" name="jk" value="Perempuan"> Perempuan
+        <br><br>
+
+        <label>Alamat:</label><br>
+        <textarea name="alamat" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" placeholder="Masukkan email">
+        <br><br>
+
+        <label>Program Studi:</label><br>
+        <select name="prodi">
+            <option>Fisika</option>
+            <option>Matematika</option>
+            <option>Kimia</option>
+            <option>Biologi</option>
+        </select>
+        <br><br>
+
+        <button type="submit">Daftar</button>
+        <button type="reset">Hapus</button>
+    </form>
+
+</body>
+</html>
